@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <array>
+        <dict>
+            <key>key</key>
+            <string>Paragraph Font</string>
+            <key>kind</key>
+            <string>font</string>
+            <key>value</key>
+            <string>iAWriterMonoS-Regular</string>
+        </dict>
+        <dict>
+            <key>key</key>
+            <string>Title Font</string>
+            <key>kind</key>
+            <string>font</string>
+            <key>value</key>
+            <string>iAWriterMonoS-Bold</string>
+        </dict>
+        <dict>
+            <key>key</key>
+            <string>Monospace Font</string>
+            <key>kind</key>
+            <string>font</string>
+            <key>value</key>
+            <string>iAWriterMonoS-Regular</string>
+        </dict>
+        <dict>
+            <key>key</key>
+            <string>Base Text Size</string>
+            <key>kind</key>
+            <string>number</string>
+            <key>value</key>
+            <integer>15</integer>
+        </dict>
+        <dict>
+            <key>key</key>
+            <string>Base Text Size iOS</string>
+            <key>kind</key>
+            <string>number</string>
+            <key>value</key>
+            <integer>15</integer>
+        </dict>
+        <dict>
+            <key>key</key>
+            <string>Monospace Font Adjust</string>
+            <key>kind</key>
+            <string>number</string>
+            <key>value</key>
+            <integer>0</integer>
+        </dict>
+        <dict>
+            <key>key</key>
+            <string>Line Height Multiplier</string>
+            <key>kind</key>
+            <string>number</string>
+            <key>value</key>
+            <real>1.5</real>
+        </dict>
+        <dict>
+            <key>key</key>
+            <string>Line Width Multiplier</string>
+            <key>kind</key>
+            <string>number</string>
+            <key>value</key>
+            <real>40</real>
+        </dict>
+        <dict>
+            <key>key</key>
+            <string>Paragraph Spacing Multiplier</string>
+            <key>kind</key>
+            <string>number</string>
+            <key>value</key>
+            <real>0.2</real>
+        </dict>
+        <dict>
+            <key>key</key>
+            <string>H1 Font Size Multiplier</string>
+            <key>kind</key>
+            <string>number</string>
+            <key>value</key>
+            <real>1.215</real>
+        </dict>
+        <dict>
+            <key>key</key>
+            <string>H2 Font Size Multiplier</string>
+            <key>kind</key>
+            <string>number</string>
+            <key>value</key>
+            <real>1.138</real>
+        </dict>
+        <dict>
+            <key>key</key>
+            <string>H3 Font Size Multiplier</string>
+            <key>kind</key>
+            <string>number</string>
+            <key>value</key>
+            <real>1.067</real>
+        </dict>
+    </array>
+</plist>

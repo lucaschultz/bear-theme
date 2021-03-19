@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>key</key>
+		<string>$base-background-color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>rgba(247, 247, 247, 1.00)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>$dark-background-color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>rgba(237, 237, 237, 1.00)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>$title-text-color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>rgba(26, 26, 26, 1.00)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>$text-color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>rgba(26, 26, 26, 1.00)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>$icon-color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>rgba(153, 153, 153, 1.00)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>$label-color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>rgba(153, 153, 153, 1.00)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>$separator-color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>rgba(204, 205, 205, 1.00)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>$accent-color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>rgba(21, 189, 236, 1.00)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>$selection-color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>rgba(200, 234, 243, 1.00)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>$white-color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>rgba(255, 255, 255, 1.00)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>$placeholder-stroke-base-color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>rgba(203, 203, 207, 1.00)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Note Table View Background Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$base-background-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Note Table Separator Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$separator-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Note Table Cell Title Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$title-text-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Note Table Cell Subtitle Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$label-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Note Table Cell Selected Background Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>rgba(233, 247, 250, 1.00)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Note Table Cell Selected Background Inactive Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>rgba(240, 240, 240, 1.00)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Note Table Cell Selected Ribbon Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$accent-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Note Table Cell Selected Ribbon Inactive Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>rgba(200, 200, 200, 1.00)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Note Table Cell Todo Percentage Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$accent-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Note Table Cell Todo Percentage Complete Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>rgba(170, 170, 170, 1.00)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Note Table Cell Search Background Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>rgba(255, 255, 163, 1.00)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Note Table Cell Search Text Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$title-text-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Note Table Cell Pin Icon Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$accent-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Note Table Add Note Icon Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$icon-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Note Table Add Note Icon Active Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$accent-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Note Table Add Note Background Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$accent-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Note Table Add Note Foreground Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$white-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Note Table Add Note Background Active Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>rgba(164, 169, 180, 1.00)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Note Table Add Note Foreground Active Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$white-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Note Table Cell Normal Swipe Actions Background Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$accent-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Note Table Cell Normal Swipe Actions Foreground Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$white-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Note Table Cell Alert Swipe Actions Background Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>rgba(202, 71, 24, 1.00)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Note Table Cell Alert Swipe Actions Foreground Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$white-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Note Table Search Text Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$title-text-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Note Table Seach Selected Text Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$title-text-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Note Table Search Selected Text Background Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$selection-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Note Table Search Placeholder Text Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>rgba(154, 153, 157, 1.00)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Note Table Search Insertion Point Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$title-text-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Note Table Search Background Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$base-background-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Note Table Search Border Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$icon-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Note Table Search Selected Border Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>rgba(2, 156, 195, 1.00)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Note Table Search Search Icon Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$icon-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Note Table Search Cancel Icon Background Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$icon-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Sidebar Background Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$base-background-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Sidebar Cell Selected Background Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$selection-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Sidebar Cell Selected Background Inactive Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>rgba(220, 220, 220, 1.00)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Sidebar Cell Text Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$title-text-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Sidebar Cell Selected Text Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$title-text-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Sidebar Cell Icon Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$title-text-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Sidebar Cell Icon Light Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$icon-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Sidebar Cell Icon Selected Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$title-text-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Note Action Icon Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$icon-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Note Action Icon Active Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$accent-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Split View Sidebar Separator Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>rgba(203, 204, 206, 1.00)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Split View Note Table Separator Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$separator-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Panel Navigation Background Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>@alpha($base-background-color, 0.9)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Panel Background Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$base-background-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Panel Text Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>rgba(82, 80, 83, 1.00)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Panel Text Highlight Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>rgba(153, 188, 228, 1.00)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Panel Label Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$label-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Panel Separator Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$separator-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Panel Icon Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$icon-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Panel Icon Light Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$separator-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Panel Icon Active Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$accent-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Preferences Panel Table Default Cell Background Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$white-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Preferences Panel Table Default Cell Foreground Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>rgba(84, 81, 84, 1.00)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Preferences Panel Table Default Cell Status Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>rgba(81, 99, 120, 1.00)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Preferences Panel Table Default Cell Accent Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$accent-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Preferences Panel Table Header Cell Background Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$base-background-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Preferences Panel Table Header Cell Foreground Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$icon-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Preferences Panel Table Separator Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$separator-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Style Editor Icon Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$text-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Style Editor Icon Accent Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$accent-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Style Editor Selected Icon Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$base-background-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Style Editor Selected Background Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$accent-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Navigation Background Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>@alpha($base-background-color, 0.93)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Navigation Sidebar Background Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>@alpha($dark-background-color, 0.93)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Navigation Icon Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>rgba(128, 128, 128, 1.00)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Navigation Icon Selected Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$accent-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Navigation Title Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$title-text-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Navigation Title Icon Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>@alpha($title-text-color, 0.3)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Navigation Title Accent Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$accent-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Navigation Title Icon Accent Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>@alpha($accent-color, 0.6)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Navigation Sidebar Icon Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>@alpha($icon-color, 0.3)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Navigation Sidebar Icon Selected Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$accent-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Navigation Sidebar Title Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$icon-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Navigation Search Bar Search Field Background Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>rgba(236, 236, 236, 1.00)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Navigation Search Bar Text Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$title-text-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Navigation Search Bar Insertion Point Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$title-text-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Navigation Search Bar Placeholder Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>rgba(143, 143, 143, 1.00)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Navigation Search Bar Icon Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>rgba(0, 0, 0, 0.30)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Placeholder Background Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$base-background-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Placeholder Background Stroke Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>@alpha($placeholder-stroke-base-color, 0.4)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Placeholder Bear Background Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$base-background-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Placeholder Bear Shadow Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>@alpha($placeholder-stroke-base-color, 0.2)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Placeholder Bear Nose Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>@alpha($placeholder-stroke-base-color, 0.4)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Placeholder Bear Fur Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>@alpha($placeholder-stroke-base-color, 0.2)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Placeholder Bear Stroke Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$placeholder-stroke-base-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>Placeholder Bear Accent Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$accent-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Image Lightbox Button Foreground Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$base-background-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Image Lightbox Button Foreground Active Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$base-background-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Image Lightbox Button Background Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>@alpha($title-text-color, 0.3)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Image Lightbox Button Background Active Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>@alpha($title-text-color, 0.5)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Extension Export Button Foreground Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>rgba(105, 105, 105, 1.00)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Extension Export Button Border Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$base-background-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Extension Export Button Foreground Active Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>rgba(116, 116, 116, 1.00)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Extension Export Button Border Active Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>rgba(228, 228, 228, 1.00)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Extension Bottom Button Foreground Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>rgba(161, 161, 161, 1.00)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Extension Bottom Button Border Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>rgba(228, 228, 228, 1.00)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string></string>
+		<key>kind</key>
+		<string>group</string>
+		<key>value</key>
+		<string>iOS Modal Panel</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Modal Panel Background Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>rgba(244, 244, 244, 1.00)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Modal Panel Foreground Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$text-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Modal Panel Navigation Background Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$accent-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Modal Panel Navigation Title Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$white-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Modal Panel Navigation Button Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$white-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Modal Panel Navigation Button Active Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$white-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Modal Panel Default Button Background Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$white-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Modal Panel Default Button Background Active Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$white-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Modal Panel Default Button Foreground Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$accent-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Modal Panel Default Button Foreground Active Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$accent-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Modal Panel Default Button Border Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$separator-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Modal Panel Common Button Background Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$base-background-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Modal Panel Common Button Background Active Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$base-background-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Modal Panel Common Button Foreground Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$text-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Modal Panel Common Button Foreground Active Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$text-color</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>iOS Modal Panel Common Button Border Color</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>$base-background-color</string>
+	</dict>
+</array>
+</plist>
