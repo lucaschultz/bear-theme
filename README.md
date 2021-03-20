@@ -1,6 +1,6 @@
 # My Bear Theme
 
-I have created my own [Bear](https://bear.app/) theme, which is based on the  [D.Boring](bear://x-callback-url/change-theme?theme=D.Boring)‌D.Boring* theme and ~~a total rip-off from~~ inspired by the [iA Writer](https://ia.net/writer) the aesthetic. It uses:
+I have created my own [Bear](https://bear.app/) theme, which is based on the  [D.Boring](bear://x-callback-url/change-theme?theme=D.Boring) theme and ~~a total rip-off from~~ inspired by the [iA Writer](https://ia.net/writer) the aesthetic. It uses:
 
 - *iA Mono Writer Mono* of the open source [iA-Fonts](https://github.com/iaolo/iA-Fonts)
 - A combination of the iA Writer color scheme, the original color scheme and some custom colours
