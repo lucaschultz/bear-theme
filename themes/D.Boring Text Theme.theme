@@ -2,6 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <array>
+	<!-- START: Custom Variables -->
 	<dict>
 		<key>key</key>
 		<string>$text-primary</string>
@@ -36,15 +37,7 @@
 	</dict>
 	<dict>
 		<key>key</key>
-		<string>$background-tertiary</string>
-		<key>kind</key>
-		<string>color</string>
-		<key>value</key>
-		<string>rgba(220, 220, 220, 1.0)</string>
-	</dict>
-	<dict>
-		<key>key</key>
-		<string>$caret</string>
+		<string>$accent-primary</string>
 		<key>kind</key>
 		<string>color</string>
 		<key>value</key>
@@ -52,19 +45,19 @@
 	</dict>
 	<dict>
 		<key>key</key>
-		<string>$selection</string>
+		<string>$accent-secondary</string>
 		<key>kind</key>
 		<string>color</string>
 		<key>value</key>
-		<string>rgba(200, 234, 243, 1.0)</string>
+		<string>rgba(255, 255, 0, 1.0)</string>
 	</dict>
 	<dict>
 		<key>key</key>
-		<string>$highlight</string>
+		<string>$accent-tertiary</string>
 		<key>kind</key>
 		<string>color</string>
 		<key>value</key>
-		<string>rgba(255, 255, 163, 1.0)</string>
+		<string>rgba(150, 150, 150, 1.0)</string>
 	</dict>
 	<dict>
 		<key>key</key>
@@ -106,6 +99,7 @@
 		<key>value</key>
 		<string>rgba(177, 79, 163, 1.0)</string>
 	</dict>
+	<!-- END: Custom Variables -->
 	<dict>
 		<key>key</key>
 		<string>Background Text Color</string>
@@ -144,7 +138,7 @@
 		<key>kind</key>
 		<string>color</string>
 		<key>value</key>
-		<string>$caret</string>
+		<string>$accent-primary</string>
 	</dict>
 	<dict>
 		<key>key</key>
@@ -160,7 +154,7 @@
 		<key>kind</key>
 		<string>color</string>
 		<key>value</key>
-		<string>$caret</string>
+		<string>$accent-primary</string>
 	</dict>
 	<dict>
 		<key>key</key>
@@ -168,7 +162,7 @@
 		<key>kind</key>
 		<string>color</string>
 		<key>value</key>
-		<string>$selection</string>
+		<string>@alpha($accent-primary, 0.2)</string>
 	</dict>
 	<dict>
 		<key>key</key>
@@ -176,7 +170,7 @@
 		<key>kind</key>
 		<string>color</string>
 		<key>value</key>
-		<string>$background-tertiary</string>
+		<string>@alpha($accent-tertiary, 0.2)</string>
 	</dict>
 	<dict>
 		<key>key</key>
@@ -192,7 +186,7 @@
 		<key>kind</key>
 		<string>color</string>
 		<key>value</key>
-		<string>rgba(255, 40, 49, 1.00)</string>
+		<string>$syntax-red</string>
 	</dict>
 	<dict>
 		<key>key</key>
@@ -200,7 +194,7 @@
 		<key>kind</key>
 		<string>color</string>
 		<key>value</key>
-		<string>rgba(11, 135, 23, 1.00)</string>
+		<string>$syntax-green</string>
 	</dict>
 	<dict>
 		<key>key</key>
@@ -208,7 +202,7 @@
 		<key>kind</key>
 		<string>color</string>
 		<key>value</key>
-		<string>$background-tertiary</string>
+		<string>@alpha($accent-tertiary, 0.4)</string>
 	</dict>
 	<dict>
 		<key>key</key>
@@ -224,7 +218,7 @@
 		<key>kind</key>
 		<string>color</string>
 		<key>value</key>
-		<string>$text-secondary</string>
+		<string>$accent-tertiary</string>
 	</dict>
 	<dict>
 		<key>key</key>
@@ -240,7 +234,7 @@
 		<key>kind</key>
 		<string>color</string>
 		<key>value</key>
-		<string>$selection</string>
+		<string>@alpha($accent-primary, 0.2)</string>
 	</dict>
 	<dict>
 		<key>key</key>
@@ -272,7 +266,7 @@
 		<key>kind</key>
 		<string>color</string>
 		<key>value</key>
-		<string>$highlight</string>
+		<string>@alpha($accent-secondary, 0.5)</string>
 	</dict>
 	<dict>
 		<key>key</key>
@@ -320,7 +314,7 @@
 		<key>kind</key>
 		<string>color</string>
 		<key>value</key>
-		<string>rgba(189, 40, 63, 1.0)</string>
+		<string>$syntax-blue</string>
 	</dict>
 	<dict>
 		<key>key</key>
@@ -328,7 +322,7 @@
 		<key>kind</key>
 		<string>color</string>
 		<key>value</key>
-		<string>rgba(118, 115, 111, 1.0)</string>
+		<string>$accent-tertiary</string>
 	</dict>
 	<dict>
 		<key>key</key>
@@ -336,7 +330,7 @@
 		<key>kind</key>
 		<string>color</string>
 		<key>value</key>
-		<string>rgba(96, 172, 57, 1.0)</string>
+		<string>$syntax-green</string>
 	</dict>
 	<dict>
 		<key>key</key>
@@ -344,7 +338,7 @@
 		<key>kind</key>
 		<string>color</string>
 		<key>value</key>
-		<string>rgba(230, 138, 0, 1.0)</string>
+		<string>$syntax-yellow</string>
 	</dict>
 	<dict>
 		<key>key</key>
@@ -352,7 +346,7 @@
 		<key>kind</key>
 		<string>color</string>
 		<key>value</key>
-		<string>rgba(160, 70, 146, 1.0)</string>
+		<string>$syntax-violet</string>
 	</dict>
 	<dict>
 		<key>key</key>
@@ -360,7 +354,7 @@
 		<key>kind</key>
 		<string>color</string>
 		<key>value</key>
-		<string>rgba(118, 115, 111, 1.0)</string>
+		<string>$accent-tertiary</string>
 	</dict>
 	<dict>
 		<key>key</key>
@@ -368,7 +362,7 @@
 		<key>kind</key>
 		<string>color</string>
 		<key>value</key>
-		<string>rgba(49, 115, 180, 1.0)</string>
+		<string>$syntax-red</string>
 	</dict>
 	<dict>
 		<key>key</key>
@@ -376,7 +370,7 @@
 		<key>kind</key>
 		<string>color</string>
 		<key>value</key>
-		<string>rgba(49, 115, 180, 1.0)</string>
+		<string>$syntax-red</string>
 	</dict>
 	<dict>
 		<key>key</key>
@@ -384,7 +378,7 @@
 		<key>kind</key>
 		<string>color</string>
 		<key>value</key>
-		<string>rgba(205, 72, 24, 1.0)</string>
+		<string>$syntax-blue</string>
 	</dict>
 	<dict>
 		<key>key</key>
