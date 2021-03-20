@@ -1,0 +1,82 @@
+#!/usr/bin/env python3
+
+import os
+import sys
+import subprocess
+import shutil
+
+# Path to folder that contains Bear.app
+common_dirs = [
+    # "/Users/youruser/custom/path", # <- Put custom path
+    "/Applications",
+    "~/Applications"
+]
+
+# Theme files that will be copied
+theme_files = [
+    "D.Boring App Theme.theme",
+    "D.Boring Text Theme.theme",
+    "Dark Graphite App Theme.theme",
+    "Dark Graphite Text Theme.theme",
+    "Menlo.theme"
+]
+
+# Icon files that will be copied
+icon_files = [
+    "App Icon - D.Boring.icns",
+    "App Icon - Charcoal.icns"
+]
+
+
+def get_app_path(app="Bear.app", common_dirs=common_dirs):
+    '''Return path of app bundle or None if bundle is not in of the common_dirs'''
+    for directory in common_dirs:
+        guessed_path = os.path.join(directory, app)
+        if os.path.isdir(guessed_path):
+            return guessed_path
+        else:
+            return None
+
+
+def restart_app(app_path):
+    """Return True if App was killed and opened succesfully or False if not"""
+    app = os.path.splitext(os.path.basename(app_path))[0]
+    result = subprocess.check_call("killall {}; sleep 0.5 && open {}".format(app, app_path), shell=True)
+    return True if result == 0 else False
+
+
+def install(app_path, themes, icons, backup=False):
+    '''Copy all icons and themes in app_path/Contents/Resources.'''
+    destination_directory = os.path.join(app_path, "Contents/Resources")
+
+    if themes:
+        for theme in themes:
+            original_theme = os.path.join(destination_directory, theme)
+            new_theme = os.path.join("./themes", theme)
+            if backup:
+                shutil.copy2(original_theme, "{}.bak".format(original_theme))
+            shutil.copy2(new_theme, original_theme)
+
+    if icons:
+        for icon in icons:
+            original_icon = os.path.join(destination_directory, icon)
+            new_icon = os.path.join("./icons", icon)
+            if backup:
+                shutil.copy2(original_icon, "{}.bak".format(original_icon))
+            shutil.copy2(new_icon, original_icon)
+
+
+if __name__ == "__main__":
+    # Check options
+    backup = True if "-b" in sys.argv else False
+    themes = None if "--themes-only" in sys.argv else theme_files
+    icons = None if "--icons-only" in sys.argv else icon_files
+
+    # Find Bear.app
+    app_path = get_app_path()
+    if app_path is None:
+        print("Could not find Bear.app")
+        sys.exit(1)
+
+    install(app_path, themes, icons, backup)
+    restart_app(app_path)
