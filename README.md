@@ -6,7 +6,6 @@ I have created my own [Bear](https://bear.app/) theme, which is based on the  [D
 
 - *iA Mono Writer Mono* of the open source [iA-Fonts](https://github.com/iaolo/iA-Fonts)
 - A combination of the iA Writer color scheme, the original color scheme and some custom colours
-- A huge font size because I'm blind 🤓
 
 ## Bear Doesn't Support Custom Themes
 
