@@ -13,7 +13,7 @@
     [
         {
             "name": "Copy Themes",
-            "shell_cmd": "sudo ./install --themes-only"
+            "shell_cmd": "sudo $project_path/install --themes-only"
         }
     ]
 }
