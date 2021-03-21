@@ -48,11 +48,13 @@ def restart_app(app_path):
 def install(app_path, themes, icons, backup=False):
     '''Copy all icons and themes in app_path/Contents/Resources.'''
     destination_directory = os.path.join(app_path, "Contents/Resources")
+    # Assumes the install script is in the base project directory
+    project_dir = os.path.dirname(os.path.realpath(__file__))
 
     if themes:
         for theme in themes:
             original_theme = os.path.join(destination_directory, theme)
-            new_theme = os.path.join("./themes", theme)
+            new_theme = os.path.join(project_dir, "themes", theme)
             if backup:
                 shutil.copy2(original_theme, "{}.bak".format(original_theme))
             shutil.copy2(new_theme, original_theme)
@@ -60,7 +62,7 @@ def install(app_path, themes, icons, backup=False):
     if icons:
         for icon in icons:
             original_icon = os.path.join(destination_directory, icon)
-            new_icon = os.path.join("./icons", icon)
+            new_icon = os.path.join(project_dir, "icons", icon)
             if backup:
                 shutil.copy2(original_icon, "{}.bak".format(original_icon))
             shutil.copy2(new_icon, original_icon)
