@@ -71,8 +71,8 @@ def install(app_path, themes, icons, backup=False):
 if __name__ == "__main__":
     # Check options
     backup = True if "-b" in sys.argv else False
-    themes = None if "--themes-only" in sys.argv else theme_files
-    icons = None if "--icons-only" in sys.argv else icon_files
+    themes = None if "--icons-only" in sys.argv else theme_files
+    icons = None if "--themes-only" in sys.argv else icon_files
 
     # Find Bear.app
     app_path = get_app_path()
