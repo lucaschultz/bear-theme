@@ -234,7 +234,7 @@
 		<key>kind</key>
 		<string>color</string>
 		<key>value</key>
-		<string>@alpha($accent-primary, 0.2)</string>
+		<string>rgba(193, 227, 236, 1.0)</string>
 	</dict>
 	<dict>
 		<key>key</key>
