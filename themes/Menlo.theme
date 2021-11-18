@@ -32,7 +32,7 @@
             <key>kind</key>
             <string>number</string>
             <key>value</key>
-            <integer>14</integer>
+            <integer>16</integer>
         </dict>
         <dict>
             <key>key</key>
@@ -40,7 +40,7 @@
             <key>kind</key>
             <string>number</string>
             <key>value</key>
-            <integer>15</integer>
+            <integer>14</integer>
         </dict>
         <dict>
             <key>key</key>
@@ -80,7 +80,7 @@
             <key>kind</key>
             <string>number</string>
             <key>value</key>
-            <real>1.0</real>
+            <real>1.296</real>
         </dict>
         <dict>
             <key>key</key>
@@ -88,7 +88,7 @@
             <key>kind</key>
             <string>number</string>
             <key>value</key>
-            <real>1.0</real>
+            <real>1.215</real>
         </dict>
         <dict>
             <key>key</key>
@@ -96,7 +96,7 @@
             <key>kind</key>
             <string>number</string>
             <key>value</key>
-            <real>1.0</real>
+            <real>1</real>
         </dict>
     </array>
 </plist>

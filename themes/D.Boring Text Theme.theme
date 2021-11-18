@@ -41,7 +41,15 @@
 		<key>kind</key>
 		<string>color</string>
 		<key>value</key>
-		<string>rgba(21, 189, 236, 1.0)</string>
+		<string>rgba(72, 152, 253, 1.0)</string>
+	</dict>
+	<dict>
+		<key>key</key>
+		<string>$accent-primary-blended</string>
+		<key>kind</key>
+		<string>color</string>
+		<key>value</key>
+		<string>rgba(216, 227, 247, 1.0)</string>
 	</dict>
 	<dict>
 		<key>key</key>
@@ -49,7 +57,7 @@
 		<key>kind</key>
 		<string>color</string>
 		<key>value</key>
-		<string>rgba(255, 255, 0, 1.0)</string>
+		<string>rgba(255, 255, 163, 0.8)</string>
 	</dict>
 	<dict>
 		<key>key</key>
@@ -162,7 +170,7 @@
 		<key>kind</key>
 		<string>color</string>
 		<key>value</key>
-		<string>@alpha($accent-primary, 0.2)</string>
+		<string>$accent-primary-blended</string>
 	</dict>
 	<dict>
 		<key>key</key>
@@ -234,7 +242,7 @@
 		<key>kind</key>
 		<string>color</string>
 		<key>value</key>
-		<string>rgba(193, 227, 236, 1.0)</string>
+		<string>$accent-primary-blended</string>
 	</dict>
 	<dict>
 		<key>key</key>
@@ -386,7 +394,7 @@
 		<key>kind</key>
 		<string>font</string>
 		<key>value</key>
-		<string>iAWriterMonoS-Regular</string>
+		<string>JetBrainsMonoNLNerdFontComplete-Regular</string>
 	</dict>
 	<dict>
 		<key>key</key>
@@ -394,7 +402,7 @@
 		<key>kind</key>
 		<string>font</string>
 		<key>value</key>
-		<string>iAWriterMonoS-Bold</string>
+		<string>JetBrainsMonoNLNerdFontComplete-Bold</string>
 	</dict>
 	<dict>
 		<key>key</key>
@@ -402,7 +410,7 @@
 		<key>kind</key>
 		<string>font</string>
 		<key>value</key>
-		<string>iAWriterMonoS-Regular</string>
+		<string>JetBrainsMonoNLNerdFontComplete-Regular</string>
 	</dict>
 	<dict>
 		<key>key</key>
@@ -410,7 +418,7 @@
 		<key>kind</key>
 		<string>number</string>
 		<key>value</key>
-		<integer>15</integer>
+		<integer>16</integer>
 	</dict>
 	<dict>
 		<key>key</key>
@@ -418,7 +426,7 @@
 		<key>kind</key>
 		<string>number</string>
 		<key>value</key>
-		<integer>15</integer>
+		<integer>14</integer>
 	</dict>
 	<dict>
 		<key>key</key>
@@ -434,7 +442,7 @@
 		<key>kind</key>
 		<string>number</string>
 		<key>value</key>
-		<real>1.5</real>
+		<real>1.8</real>
 	</dict>
 	<dict>
 		<key>key</key>
@@ -450,7 +458,7 @@
 		<key>kind</key>
 		<string>number</string>
 		<key>value</key>
-		<real>0.2</real>
+		<real>0</real>
 	</dict>
 	<dict>
 		<key>key</key>
@@ -458,7 +466,7 @@
 		<key>kind</key>
 		<string>number</string>
 		<key>value</key>
-		<real>1.215</real>
+		<real>1.802</real>
 	</dict>
 	<dict>
 		<key>key</key>
@@ -466,7 +474,7 @@
 		<key>kind</key>
 		<string>number</string>
 		<key>value</key>
-		<real>1.138</real>
+		<real>1.602</real>
 	</dict>
 	<dict>
 		<key>key</key>
@@ -474,7 +482,7 @@
 		<key>kind</key>
 		<string>number</string>
 		<key>value</key>
-		<real>1.067</real>
+		<real>1.424</real>
 	</dict>
 </array>
 </plist>
