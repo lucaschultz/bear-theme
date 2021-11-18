@@ -8,7 +8,7 @@
             <key>kind</key>
             <string>font</string>
             <key>value</key>
-            <string>iAWriterMonoS-Regular</string>
+            <string>JetBrainsMonoNLNerdFontComplete-Regular</string>
         </dict>
         <dict>
             <key>key</key>
@@ -16,7 +16,7 @@
             <key>kind</key>
             <string>font</string>
             <key>value</key>
-            <string>iAWriterMonoS-Bold</string>
+            <string>JetBrainsMonoNLNerdFontComplete-Bold</string>
         </dict>
         <dict>
             <key>key</key>
@@ -24,7 +24,7 @@
             <key>kind</key>
             <string>font</string>
             <key>value</key>
-            <string>iAWriterMonoS-Regular</string>
+            <string>JetBrainsMonoNLNerdFontComplete-Regular</string>
         </dict>
         <dict>
             <key>key</key>
@@ -56,7 +56,7 @@
             <key>kind</key>
             <string>number</string>
             <key>value</key>
-            <real>1.5</real>
+            <real>1.8</real>
         </dict>
         <dict>
             <key>key</key>
@@ -72,7 +72,7 @@
             <key>kind</key>
             <string>number</string>
             <key>value</key>
-            <real>0.2</real>
+            <real>0.0</real>
         </dict>
         <dict>
             <key>key</key>
@@ -80,7 +80,7 @@
             <key>kind</key>
             <string>number</string>
             <key>value</key>
-            <real>1.215</real>
+            <real>1.0</real>
         </dict>
         <dict>
             <key>key</key>
@@ -88,7 +88,7 @@
             <key>kind</key>
             <string>number</string>
             <key>value</key>
-            <real>1.138</real>
+            <real>1.0</real>
         </dict>
         <dict>
             <key>key</key>
@@ -96,7 +96,7 @@
             <key>kind</key>
             <string>number</string>
             <key>value</key>
-            <real>1.067</real>
+            <real>1.0</real>
         </dict>
     </array>
 </plist>
